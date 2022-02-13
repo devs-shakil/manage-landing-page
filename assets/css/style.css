@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&family=Lexend+Deca&family=Poppins:wght@600;700&display=swap');
 *{
     margin:0;
     padding:0;
@@ -22,6 +23,11 @@
     color: white;
     background-color: hsl(12, 88%, 59%);
     box-shadow: rgba(133, 15, 15, 0.24) 0px 3px 8px;
+    cursor:pointer;
+}
+.btn:hover{
+    opacity: .8;
+    transition: all 0.5s ease;
 }
 .col-50{
     width:50%;
@@ -32,6 +38,13 @@
 }
 body{
     overflow-x: hidden;
+    font-family: 'Inter', sans-serif;
+}
+h1,h2,h3,h4,h5{
+    color: hsl(233, 12%, 13%);
+}
+p{
+    color:hsl(227, 12%, 61%);
 }
 .sec-gap{
     margin-bottom:4rem;
@@ -54,6 +67,10 @@ body{
     padding:10px 20px;
     text-transform: capitalize;
     font-size: 17px;
+    font-weight: bold;
+}
+.nav-items li a:hover{
+    color:hsl(227, 12%, 61%);
 }
 /* header css end */
 /* hero css */
@@ -152,7 +169,7 @@ body{
 /* team work */
 .bg-color{
     background-color: hsl(12, 88%, 59%);
-    padding:20px 0px;
+    padding:35px 0px;
     z-index: -3;
 }
 .team-work{
@@ -160,7 +177,7 @@ body{
     align-items: center;
 }
 .team-work h2{
-    font-size: 48px;
+    font-size: 52px;
     width:50%;
     color:white;
 }
@@ -176,9 +193,59 @@ body{
 .footer-bg{
     background-color: rgb(0, 0, 0);
 }
-.socialiconAndLogo{
+.socialiconAndLogo, .footer-nav, .footer-input{
     width:25%;
 }
 .social-icon li{
     padding:5px 7px;
+}
+.social-icon li a i{
+    font-size: 20px;
+    color:white;
+}
+.social-icon li a i:hover{
+    color:hsl(12, 88%, 59%);
+}
+.footer-p{
+    padding-top:3rem;
+}
+.footer-logo{
+    filter:brightness(14.4);
+}
+.footer-nav-items li a{
+    display: inline-block;
+    text-transform: capitalize;
+    color: white;
+    font-size: 17px;
+    margin:8px 0px;   
+}
+.footer-nav-items li a:hover{
+    color:hsl(12, 88%, 59%);
+    transition: all 0.2s ease-in-out;
+}
+.footer-inbox-btn{
+    padding:14px 21px;
+    width:75%;
+    border-radius: 30px;
+    border:none;
+}
+.footer-inbox-btn::placeholder{
+    font-size: 18px;
+}
+.go-btn{
+    padding: 21px;
+    margin-left:3%;
+    border-radius: 25px;
+    border: none;
+    width:23%;
+    background-color: hsl(12, 88%, 59%);
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+}
+.copyright{
+
+    text-align: right;
+    padding-bottom: 3rem;
+    color:white;
 }
