@@ -68,6 +68,7 @@ p{
     text-transform: capitalize;
     font-size: 17px;
     font-weight: bold;
+    color:#555;
 }
 .nav-items li a:hover{
     color:hsl(227, 12%, 61%);
@@ -230,10 +231,10 @@ p{
     border:none;
 }
 .footer-inbox-btn::placeholder{
-    font-size: 18px;
+    font-size: 16px;
 }
 .go-btn{
-    padding: 21px;
+    padding: 14px;
     margin-left:3%;
     border-radius: 25px;
     border: none;
@@ -242,6 +243,11 @@ p{
     color:white;
     font-weight: bold;
     font-size:20px;
+    cursor:pointer;
+}
+.go-btn:hover{
+    opacity: .6;
+    transition: all .5s ease;
 }
 .copyright{
 
